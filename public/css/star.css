@@ -1,0 +1,176 @@
+body{
+  background:url(../src/star/bg1.jpg) no-repeat scroll;
+}
+.container{
+  width:1200px;
+  height:100%;
+}
+.starbg{
+  height:840px;
+}
+
+/* 明星产品图片 1 */
+.star1{
+  width:1600px;
+  height:100%;
+}
+.starimg1{
+  text-align: center; 
+  position: relative;
+}
+.startxt1{
+  width:320px;
+  height:200px;
+  position: absolute; 
+  bottom:140px;
+  left:380px;
+  /* border: 1px solid #f00; */
+}
+.title1{
+  font-size:24px;
+}
+.txt1{
+  margin-top:30px;
+  font-size:14px;
+  line-height:20px;
+  text-indent: 30px;
+}
+
+/* 明星产品图片 2 */
+.star2{
+   width:1600px;
+   height:1000px;
+   background: #f3f1f2;
+   position: relative;
+}
+.starimg2{
+  width:564px;
+  height:415px;
+  position: absolute;;
+  top:80px;
+  left:200px;
+  /* border: 1px solid #f00; */
+}
+.startxt2{
+  height: 100px;
+}
+.startxt2 img{
+  width:10px;
+  height:18px;
+  margin-top:40px;
+}
+.startxt2 div{
+  position: absolute;
+  bottom:20px;
+  left:20px;
+}
+.title2{
+  font-size:18px;
+}
+.txt2{
+  font-size:14px;
+  margin-top:10px;
+  color:#666;
+}
+
+/* 图片 3 */
+.starimg3{
+ width:564px;
+ height:726px;
+ position: absolute;;
+ top:170px;
+ right:170px;
+ /* border: 1px solid #f00;  */
+}
+
+/* 明星产品图片 3*/
+.star3{
+  width:1600px;
+  height:1000px;
+  background: fff;
+  position: relative;
+}
+/* 图片 4 */
+.starimg4{
+  width:564px;
+  height:459px;
+  position: absolute;
+  top:-300px;
+  left:100px;
+ /* border: 1px solid #f00; */ 
+ } 
+ .startxt4{
+  height: 100px;
+}
+.startxt4 img{
+  width:10px;
+  height:18px;
+  margin-top:10px;
+}
+.startxt4 div{
+  position: absolute;
+  bottom:13px;
+  left:20px;
+}
+.title4{
+  font-size:18px;
+}
+
+/* 图片 5 */
+.starimg5{
+  width:564px;
+  height:411px;
+  position: absolute;
+  top:200px;
+  right:200px;
+ /* border: 1px solid #f00; */ 
+ } 
+
+ /* 图片 6 */
+.starimg6{
+  width:558px;
+  height:752px;
+  position: absolute;
+  bottom:30px;
+  left:160px;
+ /* border: 1px solid #f00; */ 
+ } 
+
+  /* 图片 7 */
+.starimg7 img{
+  width:1600px;
+  height:951px;
+ } 
+
+ /* 文字过渡 */
+ .link {
+  color: #9e9ba4;
+  position: relative;
+  display: inline-block;
+}     
+.link--txt {
+  text-transform: uppercase;
+  font-weight: 900;
+  overflow: hidden;
+  color: #b2b0a9;
+}
+.link--txt:hover {
+	color: #b2b0a9;
+}
+.link--txt:hover::after {
+	transform: translate3d(100%,0,0);
+}
+
+.link--txt::before {
+	  content: attr(data-letters);
+	  position: absolute;
+	  z-index: 2;
+	  overflow: hidden;
+	  color: #424242;
+	  white-space: nowrap;
+	  width: 0%;
+	  transition: width 0.4s 0.3s;
+}
+.link--txt:hover::before {
+	 width: 100%;
+}     

@@ -1,0 +1,55 @@
+.head{
+  width:1200px;
+  height:60px;
+  margin:0 auto;
+  /* border: 1px solid #0f0; */
+}
+.headtxt,.headnav,.headlog{ 
+  float: left;
+}
+.headnav ul li,.headlog ul li{
+  display: inline-block;
+}
+ul li a{color:#f2f2f2;}
+
+ /* 头 左 文字 */
+.headtxt{
+  width:200px;
+  height:60px;
+  text-align:center;
+  /* border: 1px solid #0ff;  */
+}
+.headtxt p{
+  color: #f2f2f2;
+  line-height: 60px;
+  font:40px Old English Text MT ;
+}
+
+/* 头 中 导航栏  */
+.headnav{
+  width:800px;
+  height:60px;
+  line-height:60px;
+  /* border: 1px solid #ff0; */
+}
+.headnav ul li{
+  margin:0 70px;
+}
+.headnav ul li a:hover{
+  color: #555;
+}
+/* 头 右 登录注册 */
+.headlog{
+  width:200px;
+  height:60px;
+  text-align:center;
+  line-height:60px;
+  /* border: 1px solid #f00;  */
+}
+.headlog ul li a{
+  margin:0 20px;
+}
+.headlog ul li a:hover{
+  text-decoration: underline;
+  color: #555;
+}

@@ -1,0 +1,20 @@
+.container{
+  width: 100%;
+  height:100%;
+}
+.clientbox{
+  width:1200px;
+  height:800px;
+  margin: 0 auto;
+  text-align: center;  
+  /* border: 1px solid #f00; */
+}
+.clientbox img{
+  margin-top: 100px;
+}
+.clientbox p a{
+  color: #000;
+}
+.clientbox p a:hover{
+    text-decoration: underline;
+}
